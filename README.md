@@ -5,7 +5,8 @@ Sorry if I don't know how to give proper credits😓
 
 To add this theme to powercord, open the powercord themes folder and type "cmd" in the search. It'll open a command prompt. Type or paste ```git clone https://github.com/N0tEto/RGB-Theme-For-Powercord``` into the terminal, hit enter and refresh your powercord. Done.
 
-To add this theme to betterdiscord, download the .css file and open your betterdiscord themes folder. Drag the file into it and you're done.
+To add this theme to betterdiscord, download the .css file and open your betterdiscord themes folder. Make sure to rename the file to anything you want with the extension ".theme.css" so it should look like this "name.theme.css"
+Drag the file into it and you're done.
 
 The theme looks something like this lol. I don't recommend using this theme if you're on a low end computer. The RGB can affect performance.
 
