@@ -1,0 +1,192 @@
+/*I forked some of this code from https://github.com/Fahrenheit/Discord-RGB-Snippet-WIP.
+If you're the creator and happen to see this, sorry if I don't know how to give proper credits. My appologies.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://images8.alphacoders.com/101/1016461.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: 100%;
+  --background-image-position: center;
+  --popout-modal-image: url('https://wallpaperaccess.com/full/851999.jpg');
+  --popout-modal-blur: 0px;
+  --popout-modal-size: 100%;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.pinimg.com/originals/19/d6/79/19d679f225e57b0f6732ce43180865af.png');
+  --home-button-size: 100%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.82;
+  --left-brightness: 0.82;
+  --middle-brightness: 0.82;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.82;
+  --gradient-primary: 255,182,193;
+  --gradient-secondary: 255, 255, 255;
+  --link-colour: #FFc0CB;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 0deg;
+  --tint-colour: 145,121,134;
+  --tint-brightness: 0;
+  --font: ''Indie Flower'';
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --show-gift-gif-buttons: block;
+  --update-notice-1: none;
+}
+
+/*Animated Gradient Bars. Top and Bottom*/
+body {
+  padding-top: 2px;
+  animation: rainbow-rgb-bg 7s ease-in-out infinite;
+    backdrop-filter: blur(1px) brightness(0.5);   
+}
+
+#app-mount {
+  height: calc(100% - 6px);
+}
+
+@keyframes rainbow-rgb {
+  from {color: #6666ff;}
+  10%  {color: #0099ff;}
+  50%  {color: #00ff00;}
+  75%  {color: #ff3399;}
+  100% {color: #6666ff;}
+}
+@keyframes rainbow-rgb-bg {
+  from {background-color: #6666ff;}
+  10% {background-color: #0099ff;}
+  50% {background-color: #00ff00;}
+  75% {background-color: #ff3399;}
+  100% {background-color: #6666ff;}
+}
+
+/* BOTTOM LEFT MODAL RGB*/
+.powercord-spotify .spotify-seek-bar-progress {
+  animation: rainbow-rgb-bg 10s ease-in-out infinite; 
+}
+
+.usernameContainer-1fp4nu .title-eS5yk3, .powercord-spotify .spotify-buttons, .contents-18-Yxp {
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/* CHAT SIDEBAR */
+.arrow-gKvcEx, .icon-WnO6o2, .addButtonIcon-3u-3Hu, .icon-1_QxNX, .button-38aScr, .close-relY5R, .flowerStar-1GeTsn, .button-1w5pas, .wrapper-pZmgj4{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+.unread-3zKkbm, .liveSmall-1dy2uA{
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/* SERVER SIDEBAR */
+.wrapper-25eVIn, .da-childWrapper, .icon-3s6X1M, .circleIcon-LvPL6c, .circleIconButton-jET_ig {
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+.guildSeparator-3s64Iy, .active-1SSsBb, .item-2hkk8m, .numberBadge-2s8kKX {
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/*CHAT*/
+.icon-2uw6mp{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+.divider-3_HH5L, .blockquoteDivider-2hH8H6, .botTag-2WPJ74 {
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/*CHAT TITLE BAR*/ 
+.icon-22AiRD, .icon-22AiRD,  .strikethrough-3Wiitd {
+  animation: rainbow-rgb 10s ease-in-out infinite; }
+.divider-3FBTu8{
+animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/*SETTINGS
+{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}*/
+
+/* MEMBER LIST*/
+.icon-15YQ1T, .icon-1A2_vz{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/*TEXT INPUT AREA*/
+.contents-18-Yxp, .attachButtonPlay-3iJ0mf{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/* NEW MESSAGES TAB TEXT*/
+.barButtonBase-2uLO1z {
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/* SEARCH */
+.public-DraftEditorPlaceholder-root, .public-DraftEditorPlaceholder-hasFocus, .public-DraftStyleDefault-block {
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/* BOT BADGE */
+.da-botTag, .botTag{
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/* EMBED TEXT */
+.downloadButton-23tKQp{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/* POPOUTS */
+.iconContainer-2-XQPY, .button-1ZiXG9, .icon-LYJorE, .additionalActionsIcon-1FoUlE, .connectedAccountOpenIcon-2cNbq5 {
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+.barInner-3NDaY_{
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/* SHORTCUT HELP MENU */
+.da-modalSubtitle{
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}
+
+/*CHANNEL/CATEGORY SETTINGS*/
+
+.separator-gCa7yv, .divider-3573oO{
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/*AUDIOVIZ POWERCORD SUPPORT*/
+.vp-audioviz-bar {
+  animation: rainbow-rgb-bg 10s ease-in-out infinite;
+}
+
+/* FIX RGB DESYNC WITH THESE */
+/*.numberBadge-2s8kKX, .base-PmTxvP, .actionIcon-2Hi9ZG {
+  animation: rainbow-rgb 10s ease-in-out infinite;
+}*/
+
+/*Code Blocks*/
+.powercord-codeblock-table > tr > td:nth-child(1) {
+  animation: rainbow-rgb 5s ease-in-out infinite;
+}
+
+
+.avatarSpeaking-3MqCHL {
+  box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);
+  animation: boxshadow 3s linear infinite;
+}
+@keyframes boxshadow {
+  0%, 100% {
+      box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);;
+  }
+  25% {
+      box-shadow: inset 0 0 0 2px lime,inset 0 0 0 3px var(--background-secondary);;;
+  }
+  50% {
+     box-shadow: inset 0 0 0 2px yellow,inset 0 0 0 3px var(--background-secondary);;; 
+  }
+  75% {
+      box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary);;;
+  }
+}
