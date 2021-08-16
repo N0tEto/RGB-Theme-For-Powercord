@@ -2,7 +2,7 @@
     "name": "Weeb Theme",
     "description": "Random theme I made. Some code was forked from https://github.com/Fahrenheit/Discord-RGB-Snippet-WIP check out his/her's github https://github.com/Fahrenheit",
     "version": "2.0.0",
-    "author": "Parasyte#6719",
+    "author": "rolledev",
     "theme": "theme.css",
     "license": "MIT"
 }
